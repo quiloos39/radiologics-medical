@@ -5,7 +5,6 @@ services:
     container_name: redmine
     image: redmine:5.0.2
     restart: always
-    # Redmine by default starts on port 8080 but we want to access via port 3000.
     ports:
       - 3000:3000/tcp 
     env_file:
