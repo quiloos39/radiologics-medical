@@ -1,0 +1,5 @@
+.env
+data/postgres/*
+data/redmine/*
+!data/redmine/.gitkeep
+!data/postgres/.gitkeep
